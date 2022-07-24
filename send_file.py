@@ -38,6 +38,7 @@ class SendFile:
     def send_file(self,file_path:str):
         """
         * 发送文件到钉钉
+        * 需要用到上面获取的Corpld
         * 钉钉扫描http://wsdebug.dingtalk.com/定位到v0.1.2输入{"corpId":"","isAllowCreateGroup":true,"filterNotOwnerGroup":false}获取chatid
         """
         access_token = self.get_access_token()

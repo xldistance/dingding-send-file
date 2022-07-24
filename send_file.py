@@ -3,7 +3,7 @@ class SendFile:
     """
     * 钉钉发送文件
     * 需要钉钉后台绑定ip地址https://open-dev.dingtalk.com/fe/app#/corp/app(找到你创建的应用/开发管理/服务器出口IP,没有应用自己创建个小程序/企业自主开发)
-    * https://open-dev.dingtalk.com/获取CorpId
+    * https://open-dev.dingtalk.com/#/获取CorpId
     * 应用开发/企业内部开发/你创建的应用/应用信息获取AppKey，AppSecret
     """
     #------------------------------------------------------------------------------------

@@ -38,7 +38,7 @@ class SendFile:
     def send_file(self,file_path:str):
         """
         * 发送文件到钉钉
-        * 钉钉扫描http://wsdebug.dingtalk.com/定位到v0.1.2输入{"corpId":"ding120530c46aec71c335c2f4657eb6378f","isAllowCreateGroup":true,"filterNotOwnerGroup":false}获取chatid
+        * 钉钉扫描http://wsdebug.dingtalk.com/定位到v0.1.2输入{"corpId":"","isAllowCreateGroup":true,"filterNotOwnerGroup":false}获取chatid
         """
         access_token = self.get_access_token()
         media_id = self.get_media_id(file_path)
